@@ -1,0 +1,29 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title{
+    text-align: left;
+    padding: 0px 32px;
+}
+
+.login-sign-up {
+    list-style-type: none;
+    text-align: right;
+}
+
+.log-in {
+    float: right;
+}
+
+.sign-up {
+    float: right;
+}
+
+.acc {
+    padding-right: 32px;
+}
+
+
