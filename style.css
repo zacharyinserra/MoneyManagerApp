@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    background-color: cadetblue;
+    margin: 0px 64px;
 }
 
 .title{
@@ -14,16 +16,21 @@
     text-align: right;
 }
 
-.log-in {
+.log-in, .sign-up {
     float: right;
-}
-
-.sign-up {
-    float: right;
+    font-size: 16px;
 }
 
 .acc {
-    padding-right: 32px;
+    margin-right: 32px;
+    width: 64px;
+}
+
+/* Login form hidden by default */
+.login-popup {
+    display: none;
+    position: fixed;
+    z-index: 9;
 }
 
 

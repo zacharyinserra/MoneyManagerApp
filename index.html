@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>$</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 
 </head>
 
@@ -13,14 +14,30 @@
 
 <div class="top-bar">
 
-    <h3 class="title">$</h3>
+    <h1 class="title">$</h1>
 
     <ul class="login-sign-up">
-        <li class="log-in">
-            <a class="acc" href="">Log In</a>
-        </li>
         <li class="sign-up">
-            <a class="acc" href="">Sign Up</a>
+            <button class="acc" onclick="" href="">Sign Up</button>
+        </li>
+        <li class="log-in">
+            <button class="acc" onclick="openLogin()" href="">Log In</button>
+
+            <div class="login-popup" id="login">
+                <form action="" class="form-container">
+                    <h1>Login</h1>
+
+                    <label><b>Email/Username</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label><b>Password</b></label>
+                    <input name="psw" placeholder="Enter Password" required type="password">
+
+                    <button type="submit" class="btn">Login</button>
+                    <button type="button" class="btn cancel" onclick="closeLogin()">Close</button>
+                </form>
+            </div>
+
         </li>
     </ul>
 
