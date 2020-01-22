@@ -30,7 +30,26 @@
 .login-popup {
     display: none;
     position: fixed;
+    right: 64px;
     z-index: 9;
+    text-align: left;
+    margin-top: 16px;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: gray;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
 }
 
 

@@ -1,0 +1,20 @@
+.topper {
+    float: left;
+}
+
+.adder {
+    float: right;
+}
+
+.subsList {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    width: 128px;
+    padding: 16px;
+    float: left;
+}

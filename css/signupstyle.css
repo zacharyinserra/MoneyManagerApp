@@ -1,0 +1,34 @@
+.creds {
+    /* center the element */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    width: 20%;
+    text-align: center;
+}
+
+.group {
+    vertical-align: bottom;
+    padding: 16px 0px;
+}
+
+button {
+    width: 45%;
+}
+
+input {
+    padding: 8px;
+    width: 90%;
+}
+
+#confirm {
+    float: left;
+    margin-left: 8px;
+}
+
+#back {
+    float: right;
+    margin-right: 8px;
+}
