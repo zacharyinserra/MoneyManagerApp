@@ -1,35 +1,82 @@
-.topper {
-    float: left;
+body {
+    padding: 64px;
 }
 
-.adder {
+.overview {
+    border-bottom-style: solid;
+}
+
+/* Welcome message and account button */
+
+.header {
+    width: 100%;
+    display: table;
+}
+
+.headerItem {
+    display: table-cell;
+}
+
+#accButt {
     float: right;
 }
 
+/* Subscription/Account header and add buttons */
+
+.subsHeader {
+    padding: 32px 0px;
+    width: 100%;
+    display: table;
+}
+
+.accHeader {
+    padding: 32px 0px;
+    width: 100%;
+    display: table;
+}
+
+.topper {
+    display: table-cell;
+}
+
+#adder1 {
+    float: right;
+}
+
+#adder2 {
+    float: right;
+}
+
+/* Subscription and Account stuff */
+
 .subsListHeaders {
-     width: 100%;
+     width: 90%;
      list-style-type: none;
-     overflow: hidden;
+     /*overflow: hidden;*/
      text-align: center;
 }
 
-.subsList {
-    width: 100%;
+.subsList, .accList {
+    width: 90%;
     list-style-type: none;
     overflow: hidden;
     text-align: center;
 }
 
-#addSub {
+#addSub, #addAcc {
    display: none;
 }
 
 #addSub li input{
+     width: 128px;
+ }
+
+#addAcc li input{
     width: 128px;
 }
 
-#newList {
-    width: 100%;
+#newSubList, #newAccList {
+    width: 90%;
     list-style-type: none;
     overflow: hidden;
     text-align: center;
@@ -39,4 +86,12 @@ li {
     width: 128px;
     padding: 16px;
     float: left;
+}
+
+#subadubdub {
+    border-style: solid;
+}
+
+#accountalicious {
+    border-style: solid;
 }

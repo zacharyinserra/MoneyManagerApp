@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37761af7-6536-4edd-ae86-ff2bd60ac67e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jQuery.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/overviewstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/overviewstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/signupstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/signupstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
@@ -44,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -96,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579636897423</updated>
       <workItem from="1579636899745" duration="22692000" />
-      <workItem from="1579816389145" duration="5241000" />
+      <workItem from="1579816389145" duration="13104000" />
     </task>
     <servers />
   </component>

@@ -11,54 +11,87 @@
 
 
 <body>
+<div class="header">
+    <h1 class="headerItem">Welcome back idiot</h1>
+    <button class="headerItem" id="accButt">Account</button>
+</div>
 
-<h1>Overview</h1>
+<h1 class="overview">Overview</h1>
+
+<!-- SUBSCRIPTIONS -->
 
 <div class="subsDiv">
 
-    <h2 class="topper">Subscriptions</h2>
-    <button class="adder" onclick="showAddSub()">+</button>
+    <div class="subsHeader">
+        <h2 class="topper">Subscriptions</h2>
+        <button class="topper" id="adder1" onclick="showAddSub()">+</button>
+    </div>
 
     <div id="subadubdub">
         <ul class="subsListHeaders">
+            <li></li>
             <li><b>Subscription</b></li>
             <li><b>Price</b></li>
             <li><b>Next Payment Due</b></li>
             <li><b>Total Spent</b></li>
         </ul>
         <ul class="subsList" id="addSub">
-            <li><input name="newItem" type="text"></li>
-            <li><input name="newItem" type="text"></li>
-            <li><input name="newItem" type="text"></li>
-            <li><input name="newItem" type="text"></li>
+            <li></li>
+            <li><input name="newSubItem" type="text"></li>
+            <li><input name="newSubItem" type="text"></li>
+            <li><input name="newSubItem" type="text"></li>
+            <li><input name="newSubItem" type="text"></li>
             <li>
-                <button onclick="addListItems($('input[name=newItem]').map(function(idx, elem) { return $(elem).val(); }).get())">Add</button>
+                <button onclick="addSubItems($('input[name=newSubItem]').map(function(idx, elem) { return $(elem).val(); }).get())">
+                    Add
+                </button>
             </li>
+        </ul>
+        <ul class="subsList" id="subTotals">
+            <li><b>Totals:</b></li>
         </ul>
     </div>
 </div>
 
+<!-- ACCOUNTS -->
+
 <div class="accounts">
 
-    <h2 class="topper">Accounts</h2>
-    <h2 class="adder"><a>+</a></h2>
+    <div class="accHeader">
+        <h2 class="topper">Accounts</h2>
+        <button class="topper" id="adder2" onclick="showAddAcc()">+</button>
+    </div>
 
-    <div class="things">
-        <ul class="subsList">
+    <div id="accountalicious">
+        <ul class="accList">
+            <li></li>
             <li><b>Account</b></li>
             <li><b>Account Type</b></li>
             <li><b>Balance</b></li>
         </ul>
-        <ul class="subsList">
-            <li>Wells Fargo</li>
-            <li>$1000.00</li>
-            <li>Checkings</li>
+        <ul class="accList" id="addAcc">
+            <li></li>
+            <li><input name="newAccItem" type="text"></li>
+            <li><input name="newAccItem" type="text"></li>
+            <li><input name="newAccItem" type="text"></li>
+            <li></li>
+            <li>
+                <button onclick="addAccItems($('input[name=newSubItem]').map(function(idx, elem) { return $(elem).val(); }).get())">
+                    Add
+                </button>
+            </li>
+        </ul>
+        <ul class="accList" id="accTotals">
+            <li><b>Totals:</b></li>
         </ul>
     </div>
 </div>
 
+<!-- THAT MFING GRAPH MAYBE-->
+
 <div class="exp-rpt">
-    <h2>Expense Report</h2>
+    <h2>Expense
+        Report----------------------------------------------------------------------------------------------------------------------------------</h2>
     <div class="rpt">
         This will be a mf graph
     </div>

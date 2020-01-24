@@ -1,10 +1,10 @@
 .creds {
-    /* center the element */
+    /* Center the element */
     right: 0;
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    /* give it dimensions */
+    /* Give it dimensions */
     width: 20%;
     text-align: center;
 }
