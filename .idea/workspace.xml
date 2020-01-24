@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37761af7-6536-4edd-ae86-ff2bd60ac67e" name="Default Changelist" comment="" />
+    <list default="true" id="37761af7-6536-4edd-ae86-ff2bd60ac67e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jQuery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/overviewstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/overviewstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +28,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1WieZVEEU6z3ZMnaa4TKcnFQfkz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -31,10 +46,14 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TinDog Completed Website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/jquery-3.4.1.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579636897423</updated>
-      <workItem from="1579636899745" duration="17608000" />
+      <workItem from="1579636899745" duration="22692000" />
+      <workItem from="1579816389145" duration="5241000" />
     </task>
     <servers />
   </component>
@@ -88,10 +108,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.400.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579638181912" />
-    <state x="742" y="283" key="FileChooserDialogImpl" timestamp="1579640737944">
+    <state x="986" y="379" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1579877451164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="742" y="283" key="FileChooserDialogImpl/-1920.400.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579640737944" />
+    <state x="986" y="379" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/-1920.400.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579877451164" />
+    <state x="742" y="283" key="FileChooserDialogImpl" timestamp="1579880552972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="283" key="FileChooserDialogImpl/-1920.400.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579880552972" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1579724699515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -156,10 +180,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.3.right/-1920.400.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579724699516" />
-    <state x="463" y="170" key="SettingsEditor" timestamp="1579640744703">
+    <state x="757" y="242" key="SettingsEditor" timestamp="1579880559796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="170" key="SettingsEditor/-1920.400.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579640744703" />
+    <state x="757" y="242" key="SettingsEditor/-1920.400.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579880559796" />
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579640599986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -168,5 +192,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.400.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579638184875" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579816179049">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.400.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579816179049" />
   </component>
 </project>

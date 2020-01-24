@@ -1,9 +1,9 @@
 function openLogin(){
-    document.getElementById("login").style.display = "block";
+    $('#login').show();
 }
 
 function closeLogin() {
-    document.getElementById("login").style.display = "none";
+    $('#login').hide();
 }
 
 function pgSignUp() {
@@ -16,4 +16,15 @@ function pgIndex() {
 
 function pgOverview() {
     window.location.href = "../html/overview.html"
+}
+
+function showAddSub() {
+    $('#addSub').show();
+}
+
+function addListItems(newItems) {
+    $('#subadubdub').append("<ul id='newList'></ul>");
+    for (cnt = 0; cnt < newItems.length; cnt++) {
+        $('#newList').append("<li>" + newItems[cnt] + "</li>");
+    }
 }

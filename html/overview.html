@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>$</title>
     <link rel="stylesheet" href="../css/overviewstyle.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/index.js"></script>
+
 </head>
 
 
@@ -11,26 +14,27 @@
 
 <h1>Overview</h1>
 
-<div class="subs">
+<div class="subsDiv">
 
     <h2 class="topper">Subscriptions</h2>
-    <h2 class="adder"><a>+</a></h2>
+    <button class="adder" onclick="showAddSub()">+</button>
 
-    <div class="things">
-        <form>
-            <ul class="subsList">
-                <li><b>Subscription</b></li>
-                <li><b>Price</b></li>
-                <li><b>Next Payment Due</b></li>
-                <li><b>Total Spent</b></li>
-            </ul>
-            <ul class="subsList">
-                <li>Hulu</li>
-                <li>$7.99</li>
-                <li>1-1-2020</li>
-                <li>$50.00</li>
-            </ul>
-        </form>
+    <div id="subadubdub">
+        <ul class="subsListHeaders">
+            <li><b>Subscription</b></li>
+            <li><b>Price</b></li>
+            <li><b>Next Payment Due</b></li>
+            <li><b>Total Spent</b></li>
+        </ul>
+        <ul class="subsList" id="addSub">
+            <li><input name="newItem" type="text"></li>
+            <li><input name="newItem" type="text"></li>
+            <li><input name="newItem" type="text"></li>
+            <li><input name="newItem" type="text"></li>
+            <li>
+                <button onclick="addListItems($('input[name=newItem]').map(function(idx, elem) { return $(elem).val(); }).get())">Add</button>
+            </li>
+        </ul>
     </div>
 </div>
 

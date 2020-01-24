@@ -6,7 +6,29 @@
     float: right;
 }
 
+.subsListHeaders {
+     width: 100%;
+     list-style-type: none;
+     overflow: hidden;
+     text-align: center;
+}
+
 .subsList {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+#addSub {
+   display: none;
+}
+
+#addSub li input{
+    width: 128px;
+}
+
+#newList {
     width: 100%;
     list-style-type: none;
     overflow: hidden;
