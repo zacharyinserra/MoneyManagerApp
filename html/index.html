@@ -23,32 +23,36 @@
         </li>
         <li class="log-in">
             <button class="acc" onclick="openLogin()" href="">Log In</button>
-
-            <div class="login-popup" id="login">
-                <form action="" class="form-container">
-                    <h1>Log In</h1>
-
-                    <label><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" required>
-
-                    <label><b>Password</b></label>
-                    <input name="psw" placeholder="Enter Password" required type="password">
-
-                    <button type="submit" onclick="pgOverview()" class="btn">Log In</button>
-                    <button type="button" class="btn cancel" onclick="closeLogin()">Close</button>
-                </form>
-            </div>
-
         </li>
     </ul>
 
+</div>
+
+<div class="login-popup animate" id="login">
+    <form class="form-container animate">
+        <div class="avatar">
+            pic of ur ugly face goes here
+            <img>
+        </div>
+
+        <div class="container">
+            <label><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label><b>Password</b></label>
+            <input type=password placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" onclick="pgOverview()" class="btn-submit">Log In</button>
+                <button type="button" onclick="closeLogin()" class="btn-cancel">Close</button>
+
+        </div>
+    </form>
 </div>
 
 </body>
 
 
 <footer>
-
 
 
 </footer>
