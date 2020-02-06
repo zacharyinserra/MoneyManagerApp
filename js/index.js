@@ -1,11 +1,14 @@
+// Open/Close login box
 function openLogin(){
-    $('#login').show();
+    $('#login').fadeIn(200);
 }
 
 function closeLogin() {
-    $('#login').hide();
+    $('#login').fadeOut(100);
 }
 
+
+// Navigate to specified page
 function pgSignUp() {
     window.location.href = "../html/signup.html";
 }
@@ -18,17 +21,20 @@ function pgOverview() {
     window.location.href = "../html/overview.html"
 }
 
+
 // Shows the inputs to add a subscription after all the other listed subscriptions
 function showAddSub() {
     $('#addSub').insertAfter("#newSubList");
     $('#addSub').show();
 }
 
+
 // Shows the inputs to add an account after all the other listed subscriptions
 function showAddAcc() {
     $('#addAcc').insertAfter("#newAccList");
     $('#addAcc').show();
 }
+
 
 // Adds user-input to a list in subscriptions
 function addSubItems(newItems) {
@@ -41,6 +47,7 @@ function addSubItems(newItems) {
     $('#subTotals').insertAfter("#newSubList");
     $('#addSub').hide();
 }
+
 
 // Adds user-input to a list in accounts
 function addAccItems(newItems) {
